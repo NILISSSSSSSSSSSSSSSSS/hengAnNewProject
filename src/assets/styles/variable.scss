@@ -1,0 +1,67 @@
+// 主色调
+$color-primary: #1B87FD;
+//  和背景图切合的header颜色
+$headerImg: #1c85fd;
+//  Arrow颜色
+$arrow: #AAAAAA;
+// 文字色值
+$w-text-color:rgb(6,17,92);
+$w-text-color1:rgba(6,17,92, 0.6); // 60%
+$w-text-color2:rgba(6,17,92, 0.3); // 30%
+// 饼状图
+$W-pie-color1:#EF7340;
+$W-pie-color2:#E95E45;
+$W-pie-color3:#F79954;
+$W-pie-color4:#EEB328;
+$W-pie-color5:#00A294;
+$W-pie-color6:#20B6AB;
+$W-pie-color7:#2DB2FE;
+$W-pie-color8:#2B61FF;
+// 背景灰色
+$w-b-gray:#F5F6F9;
+// 分割线颜色
+$w-split-line:#D8D8D8;
+// 辅助色
+$w-fz-color1: #FDC70D;
+$w-fz-color2: #FF921C;
+
+//边框颜色
+$w-border-color:#979797;
+
+// 字体颜色
+$font-color-blue: #06115C;
+$font-color-gray: #989A9C;
+$color-text: rgba(0, 0, 0, 0.85);
+// 字体定义规范
+$font-size-small-s: 12px;
+$font-size-small: 14px;
+$font-size-medium: 16px;
+$font-size-medium-x: 18px;
+$font-size-large: 20px;
+$font-size-large-x: 24px;
+// 边距定义规范
+// 上边距
+$distance-x1: 46px;
+// 左右边距
+$distance-x2: 12px;
+// backLayout上边距
+$distance-x3: 58px;
+// w-card下边距,
+$distance-card: 16px;
+// 图标与文字间距
+$distance-icon: 16px;
+//字体图标颜色
+//B
+$icon-color-b: #FF8E00;
+// 字体设置
+$number-bold: DINAlternate-Bold;
+$chinese-regular: PingFangSC-Regular;
+$chinese-medium: PingFangSC-Medium;
+//渐变
+$linear-gradient: linear-gradient(-180deg, #2B61FF 0%, #1A8BFD 100%);
+
+// 输入框占位
+$place-length: 10px;
+
+//圆角
+$radius: 6px;

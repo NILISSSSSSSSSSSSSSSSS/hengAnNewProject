@@ -1,0 +1,95 @@
+@import "variable.scss";
+
+// van样式修改
+.van-nav-bar{
+    background-color: $color-primary;
+    .van-icon{
+      color: white;
+    }
+    .van-nav-bar__text{
+      color: white;
+    }
+    &:after{
+      height: 0;
+    }
+}
+
+
+// 自定义class
+
+.container-box {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: $distance-x1;
+    padding-left: $distance-x1;
+    max-width: 1200px;
+}
+
+// 清除浮动
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.el-checkbox .el-checkbox__inner {
+    border: 2px solid #000;
+}
+
+.breakAll {
+    word-break: break-all;
+}
+
+
+.setting-hint {
+    text-align: left;
+    opacity: 0.3;
+    color: #06115C;
+    letter-spacing: 0.42px;
+    font-size: 12px;
+}
+.setting-w-card {
+    margin-bottom: $distance-card;
+}
+
+.ellipsis{
+    white-space:nowrap;
+    overflow:hidden; 
+    text-overflow:ellipsis;
+}
+// 下边框为0.5px的类
+.borderBottom{
+    position: relative;
+    &:after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        transform: scaleY(0.5);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: #d8d8d8;
+    }
+}
+
+.icon-gengduo{
+    color: #E1E1E1;
+}
+
+.van-icon-arrow{
+    font-weight: 600;
+    color: $arrow;
+}
+.van-hairline--top-bottom::after{
+    width: 0!important;
+}
+.van-toast--top {
+    top: 0px !important;
+    transform: translate3d(-50%,0,0) !important;
+    width: 100% !important;
+    border-radius: 0px;
+    background-color: rgba(231,97,92,0.8) !important;
+    div{
+        font-size: 13px;
+    }
+}

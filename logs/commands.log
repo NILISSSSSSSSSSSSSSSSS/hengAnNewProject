@@ -1,0 +1,6 @@
+Last login: Mon Jul 16 21:03:50 2018 from 192.168.0.170
+rm -rf /home/abc/statics/dist/
+exit
+[abc@localhost ~]$ rm -rf /home/abc/statics/dist/
+[abc@localhost ~]$ exit
+logout
